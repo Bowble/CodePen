@@ -1,0 +1,83 @@
+/* Header Styles */
+body {
+    margin: 0;
+}
+
+.Header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Logo Styles */
+
+.Header > .Logo img {
+    Width: 200px;
+    padding: 10px 10px 10px 20px;
+}
+
+/* Navigation Area Styles */
+
+.Header > .Navigation > .Explore {
+    color: #ECD574;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    display: grid;
+}
+
+.Header > .Navigation > .Navigators {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+.Header > .Navigation > .Navigators {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-items: center;
+}
+/* 
+.Header > .Navigation > .Navigators  textarea{
+
+} */
+/* Buttons Styles */
+
+.Header > .Buttons {
+    color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 10px;
+}
+
+.Header > .Buttons > .Create > button {
+    display: flex;
+    align-items: center;
+}
+
+
+.Header > .Buttons > .Create > button > .Create-Button {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+
+.Header > .Buttons > .Create > button > span {
+    color: #45BB72;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Icon Styles */
+.Header > .Buttons > .Icons {
+    color: #7A7D8A;
+}
