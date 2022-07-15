@@ -1,0 +1,126 @@
+.Middle {
+    display: flex;
+    background-color: #7A7D8A;
+    width: 100%;
+    height: auto;
+}
+
+/* Text Styles */
+.Middle > .Text > .P1 {
+    padding: 60px 146px 25px 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white
+}
+
+/* Line-1 Styles */
+.Middle > .Text > .P1 > .Line-1 {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.Middle > .Text > .P1 > .Line-1 > .P12 {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Line-2 Styles */
+
+.Middle > .Text > .P1 > .Line-2 > .P13 {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Middle > .Text > .P1 > .Line-2 {
+    display: flex;
+    font-size: 2.5em;
+    align-items: center;
+}
+
+.Middle > .Text > .P1 > .Line-2 > .P14 {
+    display: flex;
+    padding-left: 10px;
+}
+
+/* Line-3 Styles */
+.Middle > .Text > .P1 > .Line-3 {
+    display: flex;
+    align-items:center;
+    font-size: 2.5em
+}
+
+.Middle > .Text > .P1 > .Line-3 > .Wave img {
+    display: flex;
+    width: 30px;
+}
+
+/* Paragraph 2 Styles */
+.Middle > .Text > .P2 {
+    display: flex;
+    font-size: 2em;
+    padding: 0px 0px 25px 50px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Middle > .Text > .P2 {
+    display: grid;
+}
+
+/* Button Styles */
+.Middle > .Text  > .Buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.Middle > .Text  > .Buttons {
+    display: flex;
+    padding: 0px 100px 100px 50px;
+    font-size: 2.5em
+}
+
+.Middle > .Text  > .Buttons .Sign-Up {
+    display: flex;
+    background-color: #45BB72;
+    padding: 5px
+}
+
+.Middle > .Text > .Butt
+
+
+/* Right Middle Styles */
+.Middle > .Right-Middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.Middle > .Right-Middle > .Image img {
+    width: 750px;
+    display: flex;
+    padding-right: 0px
+}
+
+.Middle > .Right-Middle > .Text {
+    display: flex;
+    padding-top: 70px;
+    font-size: 1.5em;
+}
+
+.Middle > .Right-Middle > .Text > .Text-2 {
+    display: flex;
+    padding-left: 5px;
+    color: #5fc7f0;
+}
+
+.Middle > .Right-Middle > .Text > .Text-1 {
+    display: flex;
+    color: white;
+}
+
+.Middle > .Right-Middle > .Text > .Text-3 {
+    display: flex;
+    color: white;
+}
