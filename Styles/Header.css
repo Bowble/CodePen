@@ -11,21 +11,20 @@ body {
     justify-content: space-between;
     width: 100%;
     padding: 5px 0px;
+    box-shadow: -106px 100px 116px -37px rgba(222,222,222,0.7);
 }
 
 .Header {
     display: grid;
-    grid-template-columns: 100px 900px 5px 130px;
+    grid-template-columns: 200px 900px 5px 210px;
 }
 
 /* Logo Styles */
-
 .Header > .Logo img {
     Width: 200px;
     padding: 10px 10px 10px 20px;
     display: grid;
     grid-template-columns: 1fr;
-
 }
 
 /* Navigation Area Styles */
@@ -34,7 +33,6 @@ body {
     grid-template-rows: 1fr 2fr;
     align-items: center;
 }
-
 
 .Header > .Navigation > .Explore {
     color: #ECD574;
@@ -72,14 +70,14 @@ body {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
 }
+
  .Spark-Dropdown > .material-symbols-sharp {
     font-size: 1.5em;
     display: flex;
     padding-top: 10px;
- }
+}
 
 /* Buttons Styles */
-
 .Header > .Buttons {
     color: #ffffff;
     display: grid;

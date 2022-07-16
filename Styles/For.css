@@ -1,4 +1,87 @@
 .For {
+    display: flex;
+    padding: 1px 1px 0px 1px;
+}
+
+.For {
+    box-shadow: -170px -28px 66px 14px rgba(0,0,0,0.7);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+/* Teams Styles */
+.For > .Teams {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px 12px 55px;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    background-color:#43444a;
+    color: white;
+}
+
+.For > .Teams > .P2 {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Education Styles */
+.For > .Education {
+    display: flex;
+    align-items: center;
+    padding: 20px 42px 12px 42px;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    background-color:#43444a;
+    color: white;
+}
+
+.For > .Education > .P2 {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Privacy Styles */
+.For > .Privacy {
+    display: flex;
+    align-items: center;
+    padding: 20px 65px 12px 65px;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    background-color:#43444a;
+    color: white;
+}
+
+.For > .Privacy > .P2 {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Writing Styles */
+.For > .Writing {
+    display: flex;
+    align-items: center;
+    padding: 20px 62px 12px 65px;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    background-color:#43444a;
+    color: white;
+}
+
+.For > .Writing > .P2 {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
 }
